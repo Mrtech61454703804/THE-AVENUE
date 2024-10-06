@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <img src="assests/fbrmaloomat_logo.png" alt="" class="fbr">
+                <a href="#" class="logo"><span>SHA</span>YAN</a>
+    
+                <nav class="navbar">
+                
+                    <a href="home.html">HOME</a>
+                    <a href="portfolio.html">PORTFOLIO</a>
+    
+                    <a href="services.html">SERVICES</a>
+                    
+                    <a href="experience.html">EXPEREENCE</a>
+    
+                    <a href="projects.html">PROJECTS</a>
+    
+                    <a href="education.html">EDUCATION</a>
+    
+            
+                </nav>
+                <a href="contact.html" class="contact">CONTACT ME </a>
+
+    </header>
+
+
+    <br><br><br><br><br><br><br><br><br>
+    
+    <!-- Contact Section -->
+    <section style="padding: 100px 20px; background: linear-gradient(145deg, #3498db, #2ecc71); color: white;">
+        <h2 style="text-align: center; font-size: 3em; font-weight: 700; margin-bottom: 30px; color: #ffffff; text-shadow: 0px 4px 5px rgba(0,0,0,0.15);">
+            Get in Touch with Us
+        </h2>
+        <p style="text-align: center; color: #ecf0f1; font-size: 1.2em; max-width: 900px; margin: 0 auto 60px; line-height: 1.8; text-shadow: 0px 2px 3px rgba(0,0,0,0.2);">
+            Have any questions or inquiries? Reach out to us and our team will respond promptly. We’re here to help!
+        </p>
+
+        <div style="display: flex; justify-content: space-around; flex-wrap: wrap; max-width: 1200px; margin: 0 auto;">
+
+            <!-- Contact Form -->
+            <div style="flex-basis: 45%; background-color: rgba(255,255,255,0.95); padding: 40px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+                <h3 style="font-size: 1.8em; color: #3498db; margin-bottom: 25px; text-align: center;">Contact Form</h3>
+                <form style="display: flex; flex-direction: column; gap: 20px;">
+                    <input type="text" placeholder="Your Name" style="padding: 15px; border: 2px solid #3498db; border-radius: 10px; font-size: 1.1em; transition: border-color 0.3s;">
+                    <input type="email" placeholder="Your Email" style="padding: 15px; border: 2px solid #3498db; border-radius: 10px; font-size: 1.1em; transition: border-color 0.3s;">
+                    <textarea placeholder="Your Message" style="padding: 15px; border: 2px solid #3498db; border-radius: 10px; font-size: 1.1em; transition: border-color 0.3s; height: 150px;"></textarea>
+                    <button type="submit" style="padding: 15px 20px; background-color: #3498db; color: white; border: none; font-size: 1.2em; font-weight: bold; border-radius: 50px; cursor: pointer; transition: background-color 0.3s, transform 0.3s;">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+
+            <!-- Contact Info -->
+            <div style="flex-basis: 45%; background-color: rgba(255,255,255,0.95); padding: 40px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+                <h3 style="font-size: 1.8em; color: #2ecc71; margin-bottom: 25px; text-align: center;">Our Contact Info</h3>
+                <div style="display: flex; flex-direction: column; gap: 20px;">
+                    <div style="display: flex; align-items: center;">
+                        <span style="font-size: 2em; color: #2ecc71; margin-right: 15px;">📞</span>
+                        <p style="font-size: 1.2em; color: #34495e;">Phone: (+92)3282508112</p>
+                    </div>
+                    <div style="display: flex; align-items: center;">
+                        <span style="font-size: 2em; color: #2ecc71; margin-right: 15px;">✉️</span>
+                        <p style="font-size: 1.2em; color: #34495e;">Email: mrshayan61454703804@gmail.com</p>
+                    </div>
+                    <div style="display: flex; align-items: center;">
+                        <span style="font-size: 2em; color: #2ecc71; margin-right: 15px;">📍</span>
+                        <p style="font-size: 1.2em; color: #34495e;">Location: near abhani house mombai east india </p>
+                    </div>
+                    <a href="#" style="padding: 15px 20px; background-color: #2ecc71; color: white; text-align: center; font-size: 1.2em; font-weight: bold; text-decoration: none; border-radius: 50px; cursor: pointer; transition: background-color 0.3s, transform 0.3s;">
+                        Find Us on Google Maps
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        /* Button Hover Effects */
+        button:hover, a:hover {
+            background-color: #2c3e50;
+            transform: scale(1.05);
+        }
+
+        input:focus, textarea:focus {
+            border-color: #2ecc71;
+        }
+
+        /* Form Animation */
+        form input, form textarea, form button {
+            animation: fadeIn 1s ease-out;
+        }
+
+        /* Contact Info Animation */
+        div div {
+            animation: fadeInUp 1.2s ease-out;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(-20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes fadeInUp {
+            0% { opacity: 0; transform: translateY(30px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+
+</body>
+</html>
